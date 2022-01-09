@@ -1,0 +1,91 @@
+2022-01-05 22:33:51,134:INFO:attempting SCRAM-SHA-1 mechanism (using SCRAMHashInfo(hashfun_name='sha1', quality=1, minimum_iteration_count=4096) hashfun)
+2022-01-05 22:33:51,288:INFO:bound to jid: jc_transform@404.city/102435909502069472572859100611
+2022-01-05 22:33:51,320:INFO:SM started: resumable=True, stream id='g2gCbQAAAB4xMDI0MzU5MDk1MDIwNjk0NzI1NzI4NTkxMDA2MTFtAAAACJ6Y/2+kEOv2'
+2022-01-05 22:33:51,391:INFO:Agent jc_transform@404.city connected and authenticated.
+2022-01-05 22:33:51,391:INFO:Agente Transformador iniciado
+2022-01-05 22:33:51,393:INFO:Inicio del comportamiento del Agente Transformador que recibe los datos extraidos
+2022-01-05 22:33:51,394:INFO:Inicio del comportamiento del Agente Transformador que recibe los datos extraidos
+2022-01-05 22:33:51,394:INFO:Inicio del comportamiento del Agente Transformador que recibe los datos extraidos
+2022-01-05 22:33:51,394:INFO:Inicio del comportamiento del Agente Transformador que recibe los datos extraidos
+2022-01-05 22:33:51,766:INFO:attempting SCRAM-SHA-1 mechanism (using SCRAMHashInfo(hashfun_name='sha1', quality=1, minimum_iteration_count=4096) hashfun)
+2022-01-05 22:33:51,847:INFO:attempting SCRAM-SHA-1 mechanism (using SCRAMHashInfo(hashfun_name='sha1', quality=1, minimum_iteration_count=4096) hashfun)
+2022-01-05 22:33:51,891:INFO:bound to jid: jc_loading@404.city/165586095045534004704310012514
+2022-01-05 22:33:51,922:INFO:SM started: resumable=True, stream id='g2gCbQAAAB4xNjU1ODYwOTUwNDU1MzQwMDQ3MDQzMTAwMTI1MTRtAAAACEy5nYwpEwPc'
+2022-01-05 22:33:51,989:INFO:bound to jid: jc_extract@404.city/15475613200482122954310012546
+2022-01-05 22:33:51,990:INFO:Agent jc_loading@404.city connected and authenticated.
+2022-01-05 22:33:51,990:INFO:Agente Cargador iniciado
+2022-01-05 22:33:51,990:INFO:Inicio del comportamiento del Agente Cargador que recibe los datos
+2022-01-05 22:33:52,024:INFO:SM started: resumable=True, stream id='g2gCbQAAAB0xNTQ3NTYxMzIwMDQ4MjEyMjk1NDMxMDAxMjU0Nm0AAAAITjt9kObz0uA='
+2022-01-05 22:33:52,103:INFO:Agent jc_extract@404.city connected and authenticated.
+2022-01-05 22:33:52,103:INFO:Agente Extractor ha iniciado
+2022-01-05 22:33:52,104:INFO:Extraccion de datos de https://www.michaelpage.es/
+2022-01-05 22:34:07,224:INFO:Mensaje enviado de Agente Extractor a Agente Transformer con los datos extraidos de MichaelPage
+2022-01-05 22:34:07,224:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:34:07,224:INFO:Extraccion de datos de https://www.iberempleos.es/
+2022-01-05 22:34:44,736:INFO:Mensaje enviado de Agente Extractor a Agente Transformer con los datos extraidos de iberoempleos
+2022-01-05 22:34:44,736:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:34:44,736:INFO:Extraccion de datos de https://www.infoempleo.com/
+2022-01-05 22:34:50,976:INFO:Mensaje enviado de Agente Extractor a Agente Transformer con los datos extraidos de infoempleo
+2022-01-05 22:34:50,976:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:34:50,976:INFO:Extraccion de datos de https://www.pagepersonnel.es/
+2022-01-05 22:35:02,623:INFO:Mensaje enviado de Agente Extractor a Agente Transformer con los datos extraidos de PagePersonnel
+2022-01-05 22:35:02,623:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,623:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,623:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,623:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,623:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,624:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,624:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,624:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,624:INFO:client shutting down (on request)
+2022-01-05 22:35:02,626:ERROR:Fatal read error on STARTTLS transport
+protocol: <aioxmpp.protocol.XMLStream object at 0x7fd52dbfe1c0>
+transport: <aioopenssl.STARTTLSTransport object at 0x7fd52dc04c00>
+Traceback (most recent call last):
+  File "/home/jcgualo/.local/lib/python3.8/site-packages/aioopenssl/__init__.py", line 493, in _read_ready
+    data = self._sock.recv(self.MAX_SIZE)
+  File "/home/jcgualo/.local/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1768, in recv
+    self._raise_ssl_error(self._ssl, result)
+  File "/home/jcgualo/.local/lib/python3.8/site-packages/OpenSSL/SSL.py", line 1625, in _raise_ssl_error
+    raise SysCallError(-1, "Unexpected EOF")
+OpenSSL.SSL.SysCallError: (-1, 'Unexpected EOF')
+2022-01-05 22:35:02,628:INFO:Datos recibidos en Agente Transformador extraidos de MichaelPage
+2022-01-05 22:35:02,628:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,628:INFO:Datos recibidos en Agente Transformador extraidos de iberoempleos
+2022-01-05 22:35:02,629:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,629:INFO:Datos recibidos en Agente Transformador extraidos de infoempleo
+2022-01-05 22:35:02,629:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,630:INFO:Datos recibidos en Agente Transformador extraidos de PagePersonnel
+2022-01-05 22:35:02,630:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,635:INFO:Datos filtrados
+2022-01-05 22:35:02,636:INFO:Killing behavior CyclicBehaviour/Filter_Beh with exit code: None
+2022-01-05 22:35:02,636:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,636:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,636:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,636:INFO:Killing behavior CyclicBehaviour/Transformer_Recv_Beh with exit code: None
+2022-01-05 22:35:02,636:INFO:Killing behavior CyclicBehaviour/Filter_Beh with exit code: None
+2022-01-05 22:35:02,636:INFO:stopping SM stream
+2022-01-05 22:35:02,637:INFO:stopping stream
+2022-01-05 22:35:02,637:INFO:Inicio del comportamiento del Agente Transformador que envia los datos filtrados
+2022-01-05 22:35:02,637:INFO:Killing behavior OneShotBehaviour/Transformer_Send_Beh with exit code: None
+2022-01-05 22:35:02,638:INFO:Client disconnected.
+2022-01-05 22:35:02,638:INFO:Killing behavior OneShotBehaviour/Transformer_Send_Beh with exit code: None
+2022-01-05 22:35:02,638:INFO:Killing behavior OneShotBehaviour/Extraction_Send_Beh with exit code: None
+2022-01-05 22:35:02,638:INFO:client shutting down (on request)
+2022-01-05 22:35:02,640:INFO:Killing behavior CyclicBehaviour/Loader_Recv_Beh with exit code: None
+2022-01-05 22:35:02,640:INFO:Killing behavior CyclicBehaviour/Loader_Recv_Beh with exit code: None
+2022-01-05 22:35:02,641:INFO:Inicio del comportamiento exportador de los datos
+2022-01-05 22:35:02,643:INFO:Datos exportados
+2022-01-05 22:35:02,643:INFO:Killing behavior OneShotBehaviour/Loader_Export_Beh with exit code: None
+2022-01-05 22:35:02,643:INFO:client shutting down (on request)
+2022-01-05 22:35:02,659:INFO:ignoring unknown top-level tag, we’re closing
+2022-01-05 22:35:02,659:INFO:ignoring unknown top-level tag, we’re closing
+2022-01-05 22:35:02,793:INFO:stopping SM stream
+2022-01-05 22:35:02,793:INFO:stopping stream
+2022-01-05 22:35:02,793:INFO:stopping SM stream
+2022-01-05 22:35:02,793:INFO:stopping stream
+2022-01-05 22:35:02,793:INFO:Client disconnected.
+2022-01-05 22:35:02,793:INFO:Killing behavior OneShotBehaviour/Transformer_Send_Beh with exit code: None
+2022-01-05 22:35:02,794:INFO:Client disconnected.
+2022-01-05 22:35:02,794:INFO:Killing behavior OneShotBehaviour/Loader_Export_Beh with exit code: None
+2022-01-05 22:35:03,122:INFO:FIN DE LA EJECUCION
